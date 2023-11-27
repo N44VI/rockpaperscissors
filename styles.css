@@ -24,6 +24,7 @@
 .navbar, h1{
     font-size: 100px;
     letter-spacing: 8px;
+    margin-bottom: 40px;
 }
 .introduction{
     margin-top: -90px;
@@ -73,9 +74,20 @@
     margin-top: 10px;
 
 }
-img{
-    border-radius: 15px;
-}
-img:hover{
+svg:hover{
     background-color: rgb(193, 255, 231);
+    border-radius: 15px;
+    fill: black;
+}
+
+.foot, p{
+    display: flex;
+/*     border-style: solid; */
+
+    align-items: center;
+}
+.foot, a{
+    display: flex;
+/*     border-style: solid; */
+    align-items: center;
 }

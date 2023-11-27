@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    background-color: pink;
+    color:rgb(255, 255, 255);
+    text-shadow: -1px 2px 4px rgb(0, 0, 0); 
+    font-size: x-large;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    background-color: white;
+    color: black;
+    text-shadow: none;
+}
+.submitGuess{
+    background-color: rgb(202, 202, 202);
+}
